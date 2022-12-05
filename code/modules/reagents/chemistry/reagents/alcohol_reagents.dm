@@ -2472,3 +2472,14 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	M.clockcultslurring = min(M.clockcultslurring + 3, 3)
 	M.stuttering = min(M.stuttering + 3, 3)
 	..()
+
+/datum/reagent/consumable/ethanol/arkenstout
+	name = "Arkenstout"
+	description = "An intergalactic brew notably enjoyed by Dwarves. Good for cooling off after a hot day in the mines."
+		//Shamelessly stolen from Deep Rock Galactic. There's already drinks from VA-11 Hall-A, so why not? ~Tergwa
+	color = "#00FFFF"
+	boozepwr = 55
+	taste_description = "bitterly cold with a hint of mint"
+	glass_icon_state = "arkenstout" //Sprited by Dumbdumn5
+	glass_name = "Arkenstout"
+	glass_desc = "A drink so cold it's making it snow above the mug."

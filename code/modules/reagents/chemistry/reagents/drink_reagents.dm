@@ -954,3 +954,12 @@
 		M.drowsyness++
 	return ..()
 
+/datum/reagent/consumable/leaflovers
+	name = "Leaf Lover's Special"
+	description = "Need to sober up quickly? Try this one drink! Dwarves HATE it!"
+	//Another Deep Rock Galactic drink. ~Tergwa
+	color = "#c4ff2d"
+	taste_description = "water yet somehow more bland"
+	glass_icon_state = "leafloverspecial" //Sprited by Dumbdumn5
+	glass_name = "Leaf Lover's Special"
+	glass_desc = "It looks as non-descript as it tastes."

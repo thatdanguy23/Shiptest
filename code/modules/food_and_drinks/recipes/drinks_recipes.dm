@@ -637,3 +637,13 @@
 	required_reagents = list(/datum/reagent/consumable/ethanol/cognac = 1, /datum/reagent/fuel = 1, /datum/reagent/consumable/ethanol/screwdrivercocktail = 1)
 	mix_message = "You hear faint sounds of gears turning as it mixes."
 	mix_sound = 'sound/effects/clockcult_gateway_closing.ogg'
+
+/datum/chemical_reaction/arkenstout
+	results = list(/datum/reagent/consumable/ethanol/arkenstout = 5)
+	required_reagents = list(/datum/reagent/consumable/cream = 1, /datum/reagent/consumable/ethanol/ale = 1, /datum/reagent/consumable/menthol = 1, /datum/reagent/consumable/ethanol/snowwhite = 2)
+	mix_message = "The glass frosts over and becomes unbearably cold to the touch!"
+
+/datum/chemical_reaction/leaflovers
+	results = list(/datum/reagent/consumable/leaflovers = 4)
+	required_reagents = list(/datum/reagent/medicine/antihol = 2, /datum/reagent/consumable/lemon_lime = 1, /datum/reagent/consumable/sodawater = 1, /datum/reagent/consumable/sol_dry = 2)
+	mix_message = "The mixture lightly fizzes before becoming a bland, uninteresting liquid in the glass."
